@@ -122,3 +122,93 @@
     border:  solid 0.5mm #fff;
     border-radius: 50px;
 }
+
+
+.section-2 {
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.section-2 .grid-container {
+    position: relative;
+    bottom: 275px;
+    right: 20px;
+
+    color: #FFF;
+    
+
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-gap: 0;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.section-2 .item-1 {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.section-2 .item-1 h1 {
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    margin-top: 30px;
+}
+
+.section-2 .item-1 p {
+    font-family: "Raleway",sans-serif;
+    margin-top: 15px;
+}
+
+.section-2 .item-2 {
+    margin-right: 150px;
+}
+
+
+.section-2 .item-2 h1 {
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    margin-top: 30px;
+}
+
+
+.section-2 .item-2 p {
+    font-family: "Raleway",sans-serif;
+    margin-top: 15px;
+}
+
+
+.section-2 .item-3 {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+.section-2 .item-3 h1 {
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    margin-top: 30px;
+}
+
+.section-2 .item-3 p {
+    font-family: "Raleway",sans-serif;
+    margin-top: 15px;
+}
+
+.section-2 .item-4 {
+    margin-top: 75px;
+    margin-right: 150px;
+}
+
+.section-2 .item-4 h1 {
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    margin-top: 30px;
+}
+
+.section-2 .item-4 p {
+    font-family: "Raleway",sans-serif;
+    margin-top: 15px;
+}
+
