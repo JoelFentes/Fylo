@@ -409,6 +409,72 @@
     height: 35px;
 }
 
+.access-today {
+    position: relative;
+    bottom: 120px;
+    left: 270px;
+    height: 250px;
+    width: 750px;
+    background-color: #1c2230;
+}
+
+.access-today h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+    position: relative;
+    top: 45px;
+    left: 175px;
+}
+
+.access-today p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    top: 75px;
+    
+}
+
+.access-today button {
+    position: relative;
+    top: 105px;
+    left: 80px;
+
+    background-color: #62e1dd ;
+    color: #fff;
+
+    font-family: "Raleway",sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    
+    border: none;
+    border-radius: 50px ;
+}
+
+#sign-upNow {   
+
+    position: relative;
+    top: 105px;
+    left: 50px;    
+
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 375px;
+
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+
+
+    background: white url(/img/lupa.png) left no-repeat;
+    padding-left: 20px;
+    background-size: 15px;
+}
+
 
 footer {
     height: 100vh;
