@@ -241,7 +241,7 @@
     color: #fff;
 
     width: 100%;
-    height: 120vh;
+    height: 200vh;
 }
 
 #stay-productive-img {
@@ -284,3 +284,116 @@
     text-decoration: underline #62e1dd ;
     color: #62e1dd ;
 }
+
+
+#quotes-comments {
+    position: relative;
+    bottom: 150px;
+    left: 45px;
+}
+
+.user-comments {
+    position: relative;
+    right: 20px;
+    bottom: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.comment-1, .comment-2, .comment-3 {
+    position: relative;
+    bottom: 40px;
+    margin-right: 30px;
+    background-color: #21293c;
+    
+    width: 375px;
+    height: 200px;
+
+    box-shadow: 10px 10px #171c25;
+}
+
+.comment-1 p {
+    font-weight: 600;
+    font-family: "Raleway",sans-serif;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.comment-2 p {
+    font-weight: 600;
+    font-family: "Raleway",sans-serif;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.comment-3 p {
+    font-weight: 600;
+    font-family: "Raleway",sans-serif;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.comment-1 h1, span {
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+}
+
+.comment-2 h1, span {
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+}
+
+
+.comment-3 h1, span {
+    font-size: 14px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+}
+
+
+#img-profile-1 {
+    position: relative;
+    top: 70px;
+    left: 23px;
+    background-image: url("./images/profile-1.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+
+#img-profile-2 {
+    position: relative;
+    top: 70px;
+    left: 23px;
+    background-image: url("./images/profile-2.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+#img-profile-3 {
+    position: relative;
+    top: 70px;
+    left: 23px;
+    background-image: url("./images/profile-3.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+}
+
