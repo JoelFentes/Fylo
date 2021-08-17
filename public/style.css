@@ -279,11 +279,15 @@
     color: #62e1dd ;
 }
 
-.stayp-info a  img{
+.stayp-info  img{
+    position: relative;
+    top: 23px;
+    left: 5px;
     height: 18px;
     text-decoration: underline #62e1dd ;
     color: #62e1dd ;
 }
+
 
 
 #quotes-comments {
@@ -309,6 +313,8 @@
     bottom: 40px;
     margin-right: 30px;
     background-color: #21293c;
+
+    
     
     width: 375px;
     height: 200px;
@@ -321,7 +327,9 @@
     font-family: "Raleway",sans-serif;
     position: relative;
     top: 40px;
-    left: 25px;
+
+    text-align: center;
+
 }
 
 .comment-2 p {
@@ -329,7 +337,9 @@
     font-family: "Raleway",sans-serif;
     position: relative;
     top: 40px;
-    left: 25px;
+   
+    text-align: center;
+
 }
 
 .comment-3 p {
@@ -337,7 +347,9 @@
     font-family: "Raleway",sans-serif;
     position: relative;
     top: 40px;
-    left: 25px;
+   
+    text-align: center;
+
 }
 
 .comment-1 h1, span {
@@ -397,3 +409,75 @@
     height: 35px;
 }
 
+
+footer {
+    height: 100vh;
+    color: #fff;
+    background-color: #0c1524;
+}
+
+footer .logo {
+    position: relative;
+    top: 150px;
+    left: 75px;
+}
+
+footer .location {
+    display: flex;
+    width: 450px;
+    
+    position: relative;
+    top: 200px;
+    left: 75px;
+}
+
+footer .location p {
+    margin-left: 20px;
+}
+
+footer .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 540px;
+    top: 107px;
+}
+
+footer .contact img {
+    width: 18px ;
+    margin-top: 30px;
+}
+
+footer .contact p {
+    position: relative;
+    bottom: 17px;
+    left: 45px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer #navfooter-1 a{
+    position: relative;
+    bottom: 24px;
+    left: 850px;
+    list-style: none;
+}
+
+footer #navfooter-1 ul{
+    margin-top: 30px;
+}
+
+footer #navfooter-2 a{
+    position: relative;
+    bottom: 219px;
+    left: 1000px;
+    list-style: none;
+}
+
+footer #navfooter-2 ul{
+    margin-top: 30px;
+}
